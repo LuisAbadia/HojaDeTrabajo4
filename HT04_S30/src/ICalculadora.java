@@ -6,8 +6,10 @@
 
 /**
  *
- * @author LuisEstuardo
+ * @author JoiceAndrea
  */
-public class Lista {
+public interface ICalculadora {
+    public int Calcular(String vector);
+    public String LeerArchivo(String direccion);
     
 }

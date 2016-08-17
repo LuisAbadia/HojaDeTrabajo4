@@ -6,8 +6,13 @@
 
 /**
  *
- * @author LuisEstuardo
+ * @author JoiceAndrea
  */
-public class StackFactory {
+public abstract class ListaAbstract <E> implements ILista<E> {
+    protected int cont;
+    
+    public int getSize(){
+        return cont;
+    }
     
 }
