@@ -27,6 +27,8 @@ public class Main {
         }
 		
         Calculadora miCalculadora= new Calculadora(opcion, opcion1);
+        System.out.println("El resultado es:");
+        System.out.println(miCalculadora.Calcular(miCalculadora.LeerArchivo("C:\\Users\\JoiceAndrea\\OneDrive\\Documents\\4to Semestre\\ADT\\HT4\\HojaDeTrabajo4\\HT04_S30\\src\\datos.txt")));
     }
     
 }
